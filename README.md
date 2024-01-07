@@ -1,1 +1,1 @@
-# RL-Cart-pole
+# RL: Cart pole
