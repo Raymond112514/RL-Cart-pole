@@ -1,1 +1,3 @@
-# RL: Cart pole
+# Reinforcement Learning: Cart pole
+
+This repository 
