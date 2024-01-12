@@ -29,7 +29,9 @@ The Q-learning agent is trained for 10000 episodes. In the five test episodes, t
   Figure 1: (Left) Training curve of Q-learning agent. (Right) Distribution of training scores.
 </p>
 
-<p> </p>
+<p> 
+
+</p>
 
 <div align="center">
   <img src="Graphics/QL_score 133.gif" width="40%">
