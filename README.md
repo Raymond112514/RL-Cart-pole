@@ -30,7 +30,7 @@ The Q-learning agent is trained for 10000 episodes. In the five test episodes, t
 </p>
 
 <div align="center">
-  <img src="Graphics/QL_score 133.gif" width="20%">
+  <img src="Graphics/QL_score 133.gif" width="40%">
 </div>
 
 <p align="center">
