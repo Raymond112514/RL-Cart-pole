@@ -20,10 +20,10 @@ A Q learning agent creates a Q-value table for each of the discretized states (p
 ```
 The Q-learning agent is trained for 10000 epochs. In the five test episodes, the scores are 161.0, 147.0, 133.0, 224.0, and 69.0. The training curve moving average is shown below
 
-<p align="center">
-  <img src="Graphics/QL_plot.png" width="20% style="margin-right: 50px;" />
-  <img src="Graphics/QL_hist.png" width="20%" />
-</p>
+<div align="center">
+  <img src="Graphics/QL_plot.png" width="40% style="margin-right: 50px;" />
+  <img src="Graphics/QL_hist.png" width="40%" />
+</div>
 
 <p align="center">
   Figure 1: (Left) Training curve of Q-learning agent. (Right) Distribution of training scores.
