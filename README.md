@@ -25,6 +25,15 @@ The Q-learning agent is trained for 10000 epochs. In the five test episodes, the
   <img src="Graphics/QL_hist.png" width="40%" />
 </div>
 
+<div class="row">
+  <div class="column">
+    <img src="Graphics/QL_plot.png" width="40%">
+  </div>
+  <div class="column">
+    <img src="Graphics/QL_hist.png" width="40%">
+  </div>
+</div>
+
 <p align="center">
   Figure 1: (Left) Training curve of Q-learning agent. (Right) Distribution of training scores.
 </p>
