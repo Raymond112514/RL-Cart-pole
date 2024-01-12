@@ -29,8 +29,8 @@ The Q-learning agent is trained for 10000 epochs. In the five test episodes, the
 </p>
 
 <p align="center">
-  <img src="Graphics/QL_plot.png" width="50%" />
-  <img src="Graphics/QL_hist.png" width="50%" />
+  <img src="Graphics/QL_plot.png" width="20%" />
+  <img src="Graphics/QL_hist.png" width="20%" />
 </p>
 
 
