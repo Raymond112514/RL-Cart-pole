@@ -29,6 +29,8 @@ The Q-learning agent is trained for 10000 epochs. In the five test episodes, the
   Figure 1: (Left) Training curve of Q-learning agent. (Right) Distribution of training scores.
 </p>
 
-From the graph, we see that the average performance of the Q-Learning agent increases slowly as the number of training episodes increase. 
+The graph illustrates a gradual increase in the average performance of the Q-Learning agent as the number of training episodes rises. Despite this, after reaching 10,000 episodes, the average score remains below 50. One possible explanation could be the Q-table size, which might be excessively large.
+
+## Deep Q learning agent
 
 
