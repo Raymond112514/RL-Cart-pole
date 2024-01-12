@@ -29,6 +29,14 @@ The Q-learning agent is trained for 10000 episodes. In the five test episodes, t
   Figure 1: (Left) Training curve of Q-learning agent. (Right) Distribution of training scores.
 </p>
 
+<div align="center">
+  <img src="Graphics/QL_score 133.gif">
+</div>
+
+<p align="center">
+  Figure 2: Training Q learning agent playing CartPole
+</p>
+
 The graph illustrates a gradual increase in the average performance of the Q-Learning agent as the number of training episodes rises. Despite this, after reaching 10,000 episodes, the average score remains below 50. One possible explanation could be the Q-table size, which might be excessively large.
 
 ## Deep Q learning agent
@@ -36,12 +44,20 @@ The graph illustrates a gradual increase in the average performance of the Q-Lea
 The parameter values for the Deep Q learning agent is the same as the Q learning agent. The Q value function is replaced by a two-layer linear neural network with relu activation. The hidden size of the neural network is set to be 128. For training, the adam optimizer is used. The agent is trained for 300 episodes. In the five test episodes, the scores are 207.0, 202.0, 208.0, 210.0, and 210.0. The training curve moving average is shown below
 
 <div align="center">
-  <img src="Graphics/DQL_plot.png" width="40% style="margin-right: 50px;" />
-  <img src="Graphics/DQL_hist.png" width="40%" />
+  <img src="Graphics/DQL_hist.png" width="40% style="margin-right: 50px;" />
+  <img src="Graphics/DQL_plot.png" width="40%" />
 </div>
 
 <p align="center">
   Figure 3: (Left) Training curve of Deep Q-learning agent. (Right) Distribution of training scores.
+</p>
+
+<div align="center">
+  <img src="Graphics/DQL_score 210.gif">
+</div>
+
+<p align="center">
+  Figure 4: Training Deep Q learning agent playing CartPole
 </p>
 
 
