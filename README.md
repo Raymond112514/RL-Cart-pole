@@ -8,4 +8,5 @@ An agent can be created by instantiating either the `QLearningAgent` and `DeepQL
 
 ## Q learning agent
 
-A Q learning agent creates a Q-value table for each of the discretized states (position, velocity, angle, angular velocity). The agent is trained with learning rate of $0.10$, discount of $0.90$, and epsilon of $0.75$. 
+A Q learning agent creates a Q-value table for each of the discretized states (position, velocity, angle, angular velocity). The agent is trained with learning rate of $0.10$, discount of $0.90$, and epsilon of $0.75$. The learning rate $\eta$ and epsilon $\epsilon$ is decreased exponentially by the following scheme
+$$\max(2,3)$$
