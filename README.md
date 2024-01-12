@@ -53,7 +53,7 @@ The parameter values for the Deep Q learning agent is the same as the Q learning
 </p>
 
 <div align="center">
-  <img src="Graphics/DQL_score 210.gif" width="40%">
+  <img src="Graphics/DQL_score 210.gif" width="20%">
 </div>
 
 <p align="center">
