@@ -14,6 +14,7 @@ A Q learning agent creates a Q-value table for each of the discretized states (p
 \begin{equation*}
   \begin{cases}
     \eta = \max(\eta * (1-10^{-8}), 0.01)\\
+
     \epsilon = \max(\epsilon * (1-10^{-6}), 0.01)\\
   \end{cases}
 \end{equation*}
