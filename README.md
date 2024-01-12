@@ -64,7 +64,7 @@ The parameter values for the Deep Q learning agent is the same as the Q learning
   Figure 4: Training Deep Q learning agent playing CartPole
 </p>
 
-Comparing the training curve
+Comparing the training curves of the Deep Q agent and the Q-learning agent reveals that the former requires significantly fewer episodes to achieve a high score. Within just 300 episodes, the average score surpasses 150. This observation suggests that Deep Q learning could be more efficient in representing the Q-value function in the Cartpole task.
 
 
 
